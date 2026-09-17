@@ -1,4 +1,5 @@
 # CTFHive
+<<<<<<< HEAD
 
 CTFHive is a safety-first autonomous CTF orchestrator for authorized competitions. Its primary interface is a local terminal UI for Kali/WSL. It isolates challenge workspaces, records every tool execution as evidence, uses an OpenAI-compatible Ollama endpoint by default, and supports optional Claude CLI delegation for development workflows.
 
@@ -140,3 +141,5 @@ python3 -m ctfhive.cli knowledge train
 ```
 
 This command never changes model weights automatically. Actual Qwen fine-tuning requires an explicitly selected local training stack, a reviewed dataset, and suitable GPU/storage resources. After fine-tuning, point `MODEL`/`OLLAMA_BASE_URL` at the reviewed model served by Ollama. Normal solving remains available through RAG even when no training backend is installed.
+=======
+>>>>>>> a2c7b56c2409f617352e89387c2b024bcaf7fdf3
