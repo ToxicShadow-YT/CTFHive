@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ctfhive"
+version = "0.3.0"
+description = "Safe autonomous CTF orchestration framework"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ctfhive = "ctfhive.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ctfhive*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

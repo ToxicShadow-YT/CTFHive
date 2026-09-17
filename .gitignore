@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+.pytest_cache/
+*.egg-info/
+challenges/
+evidence/
+knowledge/*.sqlite3
+knowledge/*.sqlite3-*
+knowledge/exported/
+knowledge/training/
+.tmp/
+tmp-fixture/

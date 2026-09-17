@@ -1,0 +1,2 @@
+# Optional dashboard dependency. The terminal UI uses only the Python standard library.
+streamlit>=1.40,<2.0
